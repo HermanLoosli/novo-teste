@@ -1,0 +1,40 @@
+unit UnitLogin;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.Objects, FMX.Controls.Presentation, FMX.Edit, FMX.StdCtrls, FMX.TabControl;
+
+type
+  TFormLogin = class(TForm)
+    StyleBook1: TStyleBook;
+    Layout2: TLayout;
+    img_login_logo: TImage;
+    Layout1: TLayout;
+    RoundRect1: TRoundRect;
+    edit_login_email: TEdit;
+    Layout3: TLayout;
+    RoundRect2: TRoundRect;
+    edit_login_senha: TEdit;
+    Layout4: TLayout;
+    RoundRect3: TRoundRect;
+    Label1: TLabel;
+    TabControl1: TTabControl;
+    TabLogin: TTabItem;
+    TabConta: TTabItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormLogin: TFormLogin;
+
+implementation
+
+{$R *.fmx}
+
+end.
